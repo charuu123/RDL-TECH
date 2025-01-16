@@ -1,0 +1,425 @@
+body{
+    padding-top: 170px;
+    min-width :100px;
+}
+.navbar {
+    background-color: #ffffff; 
+    padding:0px 80px;
+    display: flex; 
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    z-index: 1000; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+        .nav-link, .navbar-brand {
+            color: #141414;
+            margin-left:20px; 
+            font-size: larger;
+            font-style: normal;
+            text-decoration:none;
+            cursor:pointer;
+        }
+        .nav-link:hover {
+            color: #19191a ; 
+        }
+        .dropdown-menu {
+            background-color: #ffffffec; 
+            display: none;
+            position:absolute;
+        }
+        .dropdown-item {
+            padding: 10px 20px;
+            color: #000;
+            text-decoration: none;
+            
+        }
+        .dropdown-item:hover {
+            background-color: #dad1d1; 
+        }
+        .dropdown:hover .dropdown-menu {
+            display: block; 
+        
+        }
+         .ser li a{
+            text-decoration: none;
+            color:#494646;
+            font-size:15px;
+        }
+        .ser a{
+            color: #6e6a6a;
+            padding: 6px 15px;    
+        }
+        .search input {
+            display: none;
+            position: absolute;
+            top: 75%;
+            right: 100px;
+            transform: translateY(-50%);
+            width: 200px;
+            border: 1px solid #ffffff;
+            border-radius: 5px;
+            padding: 10px 10px;
+        }
+        .section-title1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px; /* Space between the text and lines */
+            margin: 20px 0;
+        }
+        
+        .section-title1::before,
+        .section-title1::after {
+            content: "";
+            flex: 1;
+            height: 1px;
+            background-color: #ccc; /* Line color */
+        }
+        
+        .section-title1 span {
+            font-size: 18px;
+            font-weight: bold;
+            color: black; /* Text color */
+        }
+        
+        
+        .sds{
+            display: flex;
+            justify-content: center;
+            gap: 70px;
+        }
+        
+        .sdstext{
+            text-indent: -20px;
+            line-height: 1.8;
+        }
+        
+        .sdstext h2{
+            font-size: 30px;
+        }
+        
+        
+        .section-title2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px; /* Space between the text and lines */
+            margin: 20px 0;
+            padding-top: 60px;
+        }
+        
+        .section-title2::before,
+        .section-title2::after {
+            content: "";
+            flex: 1;
+            height: 1px;
+            background-color: #ccc; /* Line color */
+        }
+        
+        .section-title2 span {
+            font-size: 18px;
+            font-weight: bold;
+            color: black; /* Text color */
+        }
+        
+        
+        
+        .heading1{
+            text-align: center;
+            font-size: 26px;
+            font-weight: 900;
+        }
+        
+        
+        
+        
+        
+        .form-container {
+            margin-left: 350px;
+             background-color: #ffffff;
+             padding: 20px;
+             border-radius: 8px;
+           
+             width: 100%;
+             max-width: 400px;
+             height: 200px;
+           }
+           
+           
+           .input-field {
+             border: 1px solid #ddd;
+             border-radius: 4px;
+             padding: 10px;
+             margin-bottom: 15px;
+             font-size: 14px;
+             width: 800px
+           }
+           
+           textarea.input-field {
+             resize: none;
+           }
+           
+           .checkbox-container {
+             display: flex; 
+             align-items: center;
+             justify-content: center; 
+             margin-bottom: 15px;
+           }
+           
+           .checkbox-container input[type="checkbox"] {
+             margin-left: 370px;
+             
+             vertical-align: middle; 
+           }
+           
+           .checkbox-container label {
+             white-space: nowrap; /* Prevents the text from wrapping to the next line */
+           }
+           
+          
+          
+           
+         
+           
+           .submit-button {
+             margin-left: 325px;
+             
+             background-color: #fff;
+             color: #000;
+             
+             border: 2px solid #000;
+             
+             border-radius: 30px;
+             font-size: 20px;
+             cursor: pointer;
+             width: 120px;
+             height: 60px;
+           }
+          
+           
+           .submit-button:hover {
+             background-color: gray;
+           }
+         
+         
+         
+           .container {
+             text-align: center;
+             font-family: Arial, sans-serif;
+             padding: 20px;
+             margin-top: 100px;
+           }
+           
+           .privacy {
+             font-size: 12px;
+             color: #6c757d;
+             margin-bottom: 50px;
+             
+             padding: 10px;
+         
+           }
+           
+           .headline {
+             font-size: 24px;
+             font-weight: bold;
+             margin: 10px 0;
+           }
+           
+           .subtext {
+             font-size: 16px;
+             color: #555;
+             margin-bottom: 20px;
+             padding: 10px;
+           }
+           
+           .whatsapp-button {
+             display: inline-block;
+             background-color: #39403b;
+             color: white;
+             font-size: 16px;
+             font-weight: bold;
+             padding: 10px 20px;
+             border-radius: 30px;
+             text-decoration: none;
+             margin-bottom: 30px;
+             height: 30px;
+           }
+           
+           .whatsapp-button:hover {
+             background-color: #1b9f4b;
+           }
+           
+           .info-section {
+             display: flex;
+             justify-content: center;
+             gap:100px;
+             
+            
+             margin-top: 30px;
+           }
+           
+           
+           .company-details,
+           .hours {
+             max-width: 300px;
+           }
+           
+           .company-details h2,
+           .hours h2 {
+             font-size: 30px;
+             font-weight: bolder;
+           }
+         
+           .hours h2{
+             margin-left: 40px;
+           }
+         
+           .company-details h2{
+             margin-right: 30px;
+           }
+         
+           .company-details p{
+             margin-right: 30px;
+           }
+           
+           .company-details p,
+           .hours p {
+             font-size: 14px;
+             line-height: 1.6;
+           }
+           
+           .hours {
+             text-align: left;
+           }
+         
+         
+         .footer {
+          
+           padding: 20px;
+           background-color: #969191;
+           border-top: 1px solid #ddd;
+         }
+         
+         .footer-content {
+           justify-content: center;
+           gap:600px;
+           margin-bottom: 10px;
+           font-size: 14px;
+           color: #555;
+           display: flex;
+         }
+         
+         
+         .footer-content p {
+           margin: 5px 0;
+         }
+         .footer-links{
+           text-align: center;
+           
+         }
+         
+         .footer-links a {
+          
+           text-decoration: none;
+           color: #000;
+           margin: 0 10px;
+           font-size: 14px;
+         }
+         
+         .footer-links a:hover {
+           text-decoration: underline;
+           color: #007BFF;
+         }
+         
+         
+         
+         .message-icon {
+           position: fixed;
+           bottom: 20px;
+           right: 20px;
+           width: 60px;
+           height: 60px;
+           background-color: #333;
+           border-radius: 50%;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+           cursor: pointer;
+           z-index: 1000;
+         }
+         
+         .message-icon img {
+           width: 30px;
+           height: 30px;
+         }
+         
+         .message-form-container {
+           position: fixed;
+           bottom: 90px;
+           right: 20px;
+           width: 300px;
+           background: #fff;
+           border: 1px solid #ddd;
+           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+           border-radius: 10px;
+           display: none;
+           z-index: 1000;
+           overflow-y: auto;
+           height: 400px;
+         }
+         
+         .message-form-header {
+           background-color: #333;
+           color: white;
+           padding: 10px;
+           font-size: 16px;
+           border-top-left-radius: 10px;
+           border-top-right-radius: 10px;
+         }
+         
+         .message-form {
+           padding: 15px;
+           height: auto;
+         }
+         
+         .message-form label {
+           display: block;
+           margin-bottom: 5px;
+           font-size: 14px;
+           font-weight: bold;
+         }
+         
+         .message-form input,
+         .message-form textarea {
+           width: 90%;
+           padding: 10px;
+           margin-bottom: 10px;
+           border: 1px solid #ddd;
+           border-radius: 10px;
+           font-size: 14px;
+         }
+         
+         .message-form textarea {
+           resize: vertical;
+           height: 80px;
+         }
+         
+         .message-form button {
+         
+           height: 40px;
+           width: 50%;
+           background-color: #333;
+           color: white;
+           border: none;
+           border-radius: 20px;
+           cursor: pointer;
+           font-size: 16px;
+           display: block; 
+           margin: 0 auto;
+         }
+         
+         .message-form button:hover {
+           background-color: #555;
+         }

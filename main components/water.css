@@ -1,0 +1,302 @@
+body{
+    padding-top: 170px;
+    min-width :100px;
+}
+.navbar {
+    background-color: #ffffff; 
+    padding:0px 80px;
+    display: flex; 
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    z-index: 1000; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+        .nav-link, .navbar-brand {
+            color: #141414;
+            margin-left:20px; 
+            font-size: larger;
+            font-style: normal;
+            text-decoration:none;
+            cursor:pointer;
+        }
+        .nav-link:hover {
+            color: #19191a ; 
+        }
+        .dropdown-menu {
+            background-color: #ffffffec; 
+            display: none;
+            position:absolute;
+        }
+        .dropdown-item {
+            padding: 10px 20px;
+            color: #000;
+            text-decoration: none;
+            
+        }
+        .dropdown-item:hover {
+            background-color: #dad1d1; 
+        }
+        .dropdown:hover .dropdown-menu {
+            display: block; 
+        
+        }
+         .ser li a{
+            text-decoration: none;
+            color:#494646;
+            font-size:15px;
+        }
+        .ser a{
+            color: #6e6a6a;
+            padding: 6px 15px;    
+        }
+        .search input {
+            display: none;
+            position: absolute;
+            top: 75%;
+            right: 100px;
+            transform: translateY(-50%);
+            width: 200px;
+            border: 1px solid #ffffff;
+            border-radius: 5px;
+            padding: 10px 10px;
+        }
+        .section-title {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px;
+        }
+        
+        .section-title::before,
+        .section-title::after {
+            content: "";
+            flex: 1;
+            height: 1px;
+            background-color: #ccc; 
+        }
+        
+        .section-title span {
+            font-size: 18px;
+            font-weight: bold;
+            color: black; 
+        }
+        
+        .mainimage{
+            text-align: center;
+        }
+        .heading1{
+            text-align: center;
+            font-size: 26px;
+            font-weight: 900;
+        }
+        .heading1text{
+            text-align: center;
+            line-height: 1.8;
+            padding-right: 220px;
+            padding-left: 220px;
+        }
+        .section-title1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px 0;
+            padding: 30px;
+        }
+        
+        .section-title1::before,
+        .section-title1::after {
+            content: "";
+            flex: 1;
+            height: 1px;
+            background-color: #ccc; 
+        }
+        
+        .section-title1 span {
+            font-size: 18px;
+            font-weight: bold;
+            color: black; 
+        }
+        
+        
+        .features{
+            display: flex;
+            gap:90px;
+            justify-content: center;
+            margin-left: 15%;
+        }
+        
+        .featurestext{
+            line-height: 1.8;
+            padding-right: 200px;
+            text-indent: -20px;
+        }
+        
+        .featurestext h2{
+            font-size: 26px;
+            font-weight: 800;
+            text-align: center;
+        }
+        
+        .featurestext p{
+            font-size: 16px;
+             }
+        .benefits{
+            display: flex;
+            justify-content: center;
+            padding: 60px;
+        }
+        
+        .benefitstext{
+            font-size: 17px;
+            padding-right: 150px;
+            line-height: 1.8;
+            margin-left: 160px;
+            text-indent: -20px;
+        }
+        
+        .benefitstext h2{
+            text-align: center;
+            font-size: 26px;
+            font-weight: 900;
+        }
+        
+        .benefitsimage{
+            margin-right: 70px;
+        }
+        .applications{
+            display: flex;
+            gap:120px;
+            justify-content: center;
+            margin-left: 15%;
+        }
+        
+        .applicationstext{
+            line-height: 1.8;
+            padding-right: 200px;
+            text-indent: -20px;
+        }
+        
+        .applicationstext h2{
+            font-size: 26px;
+            font-weight: 800;
+            text-align: center;
+        }
+        
+        .applicationstext p{
+            font-size: 16px;
+        }
+        .heading2{
+            text-align: center;
+            font-size: 26px;
+            font-weight: 900;
+        }
+        
+        
+        #website{
+            padding: 18px 300px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 30px; 
+            margin-left: 24%;
+            margin-top: auto;   
+            
+        }
+        #website:hover{
+            background-color: #353637;
+        color: white;
+        }
+        .bar{
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+        .note{
+            text-align: center;
+            font-size: 24px;
+            font-weight: 800;
+            padding: 10px;
+        }
+         .note2{
+            text-align: center;
+            font-size: 18px;
+        }
+        
+        .info-section {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            gap:100px;
+            margin-top: 30px;
+          }
+          
+          
+          .company-details,
+          .hours {
+            max-width: 300px;
+          }
+          
+          .company-details h2,
+          .hours h2 {
+            font-size: 30px;
+            font-weight: bolder;
+          }
+        
+          .hours h2{
+            margin-left: 40px;
+          }
+        
+          .company-details h2{
+            margin-right: 30px;
+          }
+        
+          .company-details p{
+            margin-right: 30px;
+          }
+          
+          .company-details p,
+          .hours p {
+            font-size: 14px;
+            line-height: 1.6;
+          }
+          
+          .hours {
+            text-align: left;
+          }
+        .footer {
+          padding: 20px;
+          background-color: #b6adad;
+          border-top: 1px solid #ddd;
+        }
+        
+        .footer-content {
+          justify-content: center;
+          gap:600px;
+          margin-bottom: 10px;
+          font-size: 14px;
+          color: #555;
+          display: flex;
+        }
+        
+        
+        .footer-content p {
+          margin: 5px 0;
+        }
+        .footer-links{
+          text-align: center;
+          
+        }
+        
+        .footer-links a {
+         
+          text-decoration: none;
+          color: #000;
+          margin: 0 10px;
+          font-size: 14px;
+        }
+        
+        .footer-links a:hover {
+          text-decoration: underline;
+          color: #007BFF;
+        }

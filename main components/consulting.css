@@ -1,0 +1,240 @@
+body{
+    padding-top: 170px;
+    min-width :100px;
+}
+.navbar {
+    background-color: #ffffff; 
+    padding:0px 80px;
+    display: flex; 
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    z-index: 1000; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+        .nav-link, .navbar-brand {
+            color: #141414;
+            margin-left:20px; 
+            font-size: larger;
+            font-style: normal;
+            text-decoration:none;
+            cursor:pointer;
+        }
+        .nav-link:hover {
+            color: #19191a ; 
+        }
+        .dropdown-menu {
+            background-color: #ffffffec; 
+            display: none;
+            position:absolute;
+        }
+        .dropdown-item {
+            padding: 10px 20px;
+            color: #000;
+            text-decoration: none;
+            
+        }
+        .dropdown-item:hover {
+            background-color: #dad1d1; 
+        }
+        .dropdown:hover .dropdown-menu {
+            display: block; 
+        
+        }
+         .ser li a{
+            text-decoration: none;
+            color:#494646;
+            font-size:15px;
+        }
+        .ser a{
+            color: #6e6a6a;
+            padding: 6px 15px;    
+        }
+        .search input {
+            display: none;
+            position: absolute;
+            top: 75%;
+            right: 100px;
+            transform: translateY(-50%);
+            width: 200px;
+            border: 1px solid #ffffff;
+            border-radius: 5px;
+            padding: 10px 10px;
+        }
+        .Con {
+            display: flex; 
+            margin: 0 auto;
+            margin-top: 50px; 
+            height: 200px;
+            margin-left: 140px;
+        }
+        .Ganesh2{
+            display: flex;
+            flex-direction: row;
+            margin-left: 200px;
+            font-size: 14px;
+            margin-top: 30px;
+        }
+        .Ganesh{
+            margin:0  40px;
+            margin-top: 10px;
+        }
+        .Para1{
+            color: #7d7979;
+            line-height: 1.5;
+        }
+        .Ganesh1{
+            line-height: 0.5;
+            font-size: 16px;
+        }
+        .Tur{
+            display: flex;
+            flex-direction: row;
+            margin-left: 200px;
+            font-size: 14px;
+            margin-top: 80px;
+        }
+        .Tur2{
+            margin:0  40px;
+        }
+        .Para2{
+            color: #7d7979;
+            line-height: 1.5;
+        }
+        .Chara{
+            line-height: 0.3;
+            font-size: 14px;
+            margin-top: 40px;
+        }
+        .Ganesh3{
+          display: flex;
+          flex-direction: row;
+          margin-left: 100px;
+          font-size: 14px;
+          margin-top: 30px;
+        }
+        .Ganesh4{
+          margin:0  40px;
+          margin-top: 10px;
+        }
+        .Para3{
+          color: #7d7979;
+          line-height: 1.5;
+        }
+        .Ganesh5{
+          line-height: 0.5;
+          font-size: 16px;
+        }
+        .Tur1{
+          display: flex;
+          flex-direction: row;
+          margin-left: 200px;
+          font-size: 14px;
+          margin-top: 80px;
+        }
+        .Tur3{
+          margin:0  40px;
+          margin-top: -40px;
+        }
+        .Para4{
+          color: #7d7979;
+          line-height: 1.5;
+        }
+        .Chara1{
+          line-height: 0.3;
+          font-size: 16px;
+          margin-top: 40px;
+        }
+        .Tus2{
+          display: flex;
+          flex-direction: row;
+          margin-left: 100px;
+          font-size: 14px;
+          margin-top: 30px;
+        }
+        .Tus3{
+          margin:0  40px;
+          margin-top: 10px;
+        }
+        .Har{
+          color: #7d7979;
+          line-height: 1.5;
+        }
+        .Class{
+          text-align: center;
+          font-size: 22px;
+        }
+        .Roshan{
+          text-align: center;
+          font-size: 12px;
+        }
+        
+        .input1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width:1300px;
+        }   
+        .input1 input {
+            width:500px;
+            height:50px;
+            border:none;
+            background-color:#ccc;
+        }
+        
+        textarea{
+        background-color: #ccc;
+        height:300px;
+        width: 500px;
+        border:none;
+        }
+        .btn1{
+        background-color: #f9f9fa;
+        color: rgb(29, 23, 23);
+        border: none;
+        border-radius: 20px;
+        padding: 12px 20px;
+        width:150px;
+        height: 50px;
+        cursor: pointer;
+        font-size: 1em;
+        border-style:solid;
+        border-width: 1px ;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin:0 390px 0 390px;
+        
+        }
+        .btn1:hover{
+        background-color: #171717;
+        color: white;
+        }
+        .contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap:10%;
+        }
+        .footer1 a{
+        text-decoration: none;
+        color:#141414;
+        justify-content: center;
+        align-items: center;
+        padding-right:5px;
+        margin-left:3%;
+        }
+        
+        .ftr{
+        padding:40px;
+        background-color: #ccc;
+        }
+        .hidden {
+        display: none;
+        }
+        
+        .search-input {
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        }

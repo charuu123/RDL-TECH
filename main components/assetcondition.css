@@ -1,0 +1,190 @@
+body{
+    padding-top: 170px;
+    min-width :100px;
+}
+.navbar {
+    background-color: #ffffff; 
+    padding:0px 80px;
+    display: flex; 
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    z-index: 1000; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+        .nav-link, .navbar-brand {
+            color: #141414;
+            margin-left:20px; 
+            font-size: larger;
+            font-style: normal;
+            text-decoration:none;
+            cursor:pointer;
+        }
+        .nav-link:hover {
+            color: #19191a ; 
+        }
+        .dropdown-menu {
+            background-color: #ffffffec; 
+            display: none;
+            position:absolute;
+        }
+        .dropdown-item {
+            padding: 10px 20px;
+            color: #000;
+            text-decoration: none;
+            
+        }
+        .dropdown-item:hover {
+            background-color: #dad1d1; 
+        }
+        .dropdown:hover .dropdown-menu {
+            display: block; 
+        
+        }
+         .ser li a{
+            text-decoration: none;
+            color:#494646;
+            font-size:15px;
+        }
+        .ser a{
+            color: #6e6a6a;
+            padding: 6px 15px;    
+        }
+        .search input {
+            display: none;
+            position: absolute;
+            top: 75%;
+            right: 100px;
+            transform: translateY(-50%);
+            width: 200px;
+            border: 1px solid #ffffff;
+            border-radius: 5px;
+            padding: 10px 10px;
+        }
+        .line{
+            display: flex;
+            align-items: center;
+            text-align: center;
+            margin: 70px;   
+        }
+        .line hr{
+            flex:1;
+            border: none;
+            border-top: 1px solid #ccc;
+        }.image{
+            text-align:center;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            padding: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .card {
+            background-color: white;
+            margin-left: 100px;
+        }
+        .icon img {
+            width: 200px;
+            height: 100px;   
+        }
+        #website{
+            padding: 18px 300px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 30px; 
+            margin-left: 24%;
+            margin-top: auto;   
+            
+        }
+        #website:hover{
+            background-color: #353637;
+            color: white;
+        }
+        .footer1 a{
+            text-decoration: none;
+            color:#141414;
+            justify-content: center;
+            align-items: center;
+            padding-right:5px;
+            margin-left:3%;
+            }
+            
+            .ftr{
+            padding:40px;
+            background-color: #9b9494;
+            }
+            @media (max-width: 1024px) {
+                .navbar {
+                    padding: 0 20px;
+                }
+                .nav-link, .navbar-brand {
+                    font-size: medium;
+                }
+                image img{
+                    width:100%;
+                }
+                .container {
+                    grid-template-columns: 1fr; 
+                    padding: 20px;
+                }
+                #website {
+                    padding: 10px 50px;
+                }
+            }
+            
+            /* For mobile screens */
+            @media (max-width: 768px) {
+                body {
+                    padding-top: 100px;
+                }
+                .navbar {
+                    flex-direction: column; 
+                }
+                .nav-link {
+                    margin: 5px 0;
+                }
+                .container {
+                    padding: 10px;
+                }
+                image img {
+                    width: 100%;
+                }
+                .card {
+                    margin-left: 0;
+                    text-align: center;
+                }
+                #website {
+                    width: 50%;
+                    padding: 10px;
+                    margin: 0 auto;
+                }
+            }
+            
+            /* For extra small screens */
+            @media (max-width: 480px) {
+                body {
+                    padding-top: 80px;
+                }
+                .navbar {
+                    padding: 10px;
+                }
+                .nav-link {
+                    font-size: small;
+                }
+                .container {
+                    grid-template-columns: 1fr;
+                    gap: 5px;
+                }
+                .icon img {
+                    width: 5px;
+                    height: auto;
+                }
+                .ftr {
+                    padding: 10px;
+                    font-size: 12px;
+                }
+            }

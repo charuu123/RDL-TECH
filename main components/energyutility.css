@@ -1,0 +1,193 @@
+body{
+    padding-top: 170px;
+    min-width :100px;
+}
+.navbar {
+    background-color: #ffffff; 
+    padding:0px 80px;
+    display: flex; 
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    z-index: 1000; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+        .nav-link, .navbar-brand {
+            color: #141414;
+            margin-left:20px; 
+            font-size: larger;
+            font-style: normal;
+            text-decoration:none;
+            cursor:pointer;
+        }
+        .nav-link:hover {
+            color: #19191a ; 
+        }
+        .dropdown-menu {
+            background-color: #ffffffec; 
+            display: none;
+            position:absolute;
+        }
+        .dropdown-item {
+            padding: 10px 20px;
+            color: #000;
+            text-decoration: none;
+            
+        }
+        .dropdown-item:hover {
+            background-color: #dad1d1; 
+        }
+        .dropdown:hover .dropdown-menu {
+            display: block; 
+        
+        }
+         .ser li a{
+            text-decoration: none;
+            color:#494646;
+            font-size:15px;
+        }
+        .ser a{
+            color: #6e6a6a;
+            padding: 6px 15px;    
+        }
+        .search input {
+            display: none;
+            position: absolute;
+            top: 75%;
+            right: 100px;
+            transform: translateY(-50%);
+            width: 200px;
+            border: 1px solid #ffffff;
+            border-radius: 5px;
+            padding: 10px 10px;
+        }
+        .line{
+            display: flex;
+            align-items: center;
+            text-align: center;
+            margin: 70px;
+            margin-bottom: 10px; 
+        }
+        .line hr{
+            flex:1;
+            border: none;
+            border-top: 1px solid #ccc;
+        }.image{
+            margin: 100px;
+        }
+        
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            padding: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .card {
+            background-color: white;
+         margin-left: 200px;
+        }
+        
+        ul {
+            list-style-type: disc;  
+            margin-left: 20px; 
+            padding: 0;
+        }
+        
+        li { 
+            line-height: 1.8;
+        }
+        
+        .hidden-content {
+            display: none;
+        }
+        button {
+            margin-top: 10px; 
+        }
+        .icon img {
+            width: 200px;
+            height: 100px;  
+        }
+        #website{
+            padding: 18px 300px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 30px; 
+            margin-left: 24%;
+            margin-top: auto;   
+            
+        }
+        #website:hover{
+            background-color: #353637;
+            color: white;
+        }
+        .footer1 a{
+            text-decoration: none;
+            color:#141414;
+            justify-content: center;
+            align-items: center;
+            padding-right:5px;
+            margin-left:3%;
+            }
+            
+        .ftr{
+            padding:40px;
+            background-color: #969090;
+            }
+            /* Responsive Styles */
+@media (max-width: 1200px) {
+    .container {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+    .card {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-link, .navbar-brand {
+        margin-left: 0;
+        font-size: medium;
+    }
+    #website {
+        padding: 18px 100px;
+        font-size: 14px;
+        margin-left: 0;
+    }
+    .search input {
+        right: 20px;
+        width: 150px;
+    }
+    .line {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-link, .navbar-brand {
+        font-size: small;
+    }
+    .icon img {
+        width: 150px;
+        height: 75px;
+    }
+    .container {
+        padding: 10px;
+    }
+    #website {
+        padding: 10px 50px;
+        font-size: 12px;
+    }
+}
